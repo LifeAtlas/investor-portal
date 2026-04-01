@@ -426,10 +426,10 @@ export default function StoryPage() {
           {/* ═══ Back link ═══ */}
           <div className="mt-32 text-center">
             <a
-              href="/"
+              href="/v2"
               className="inline-block px-8 py-3 border border-[var(--color-border)] rounded-lg text-[var(--color-text-secondary)] hover:text-[var(--color-text)] hover:border-blue-600/50 transition-colors text-sm"
             >
-              Back to Investor Portal
+              Back to Investor Portal v2
             </a>
           </div>
         </div>
