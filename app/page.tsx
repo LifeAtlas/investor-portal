@@ -546,6 +546,7 @@ export default function Home() {
       {/* ═══ The Narrative ═══ */}
       <section className="max-w-5xl mx-auto px-6 py-16">
         <div className="bg-gradient-to-br from-blue-950/40 via-[var(--color-surface)] to-green-950/30 border border-green-800/20 rounded-xl p-8">
+          <a href="/story" className="text-sm text-green-400 hover:text-green-300 float-right mt-1 transition-colors">Read the full story →</a>
           <h2 className="text-2xl font-bold mb-4">The First User, The Last Platform</h2>
           <p className="text-[var(--color-text-secondary)] leading-relaxed mb-4">
             Life Atlas starts with one person — the founder — as the first fully quantified
