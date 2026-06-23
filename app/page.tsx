@@ -7,25 +7,24 @@ const stats = [
   { label: "Founded", value: "2024" },
   { label: "Stage", value: "Pre-Seed" },
   { label: "HQ", value: "Gothenburg, SE" },
-  { label: "Raising", value: "EUR 1.5-2.5M" },
+  { label: "Raising", value: "EUR 1.5M (pre-seed)" },
   { label: "Architecture", value: "Edge-Native" },
   { label: "Framework", value: "WHO QoL" },
 ];
 
 const partners = [
-  { name: "Prof. Gunnar Cedersund", role: "M4 Mechanistic Biology — Linköping University / AstraZeneca" },
-  { name: "Pieter van Schalkwyk", role: "Founder & CEO, XMPro — Digital Twin Platform" },
+  { name: "Dr. Mohamad Takwa", role: "Intended Chairman — CEO & Co-founder, Epigenica (epigenetics)" },
+  { name: "Pieter van Schalkwyk", role: "Founder & CEO, XMPro — Multi-Agent AI Platform" },
   { name: "Marc Horner", role: "CEO, CytoTheryx — In Silico Clinical Trials" },
-  { name: "Dr. Eric Stahlberg", role: "Director of Biomedical Informatics, Frederick National Lab / NCI" },
-  { name: "Dan Maccreary", role: "Ex-Optum VP Engineering — Healthcare Data at Scale" },
-  { name: "Dan Isaacs", role: "Digital Twin Standards & Interoperability" },
+  { name: "Dan McCreary", role: "Ex-Optum — Healthcare Data at Scale" },
+  { name: "Dan Isaacs", role: "CTO & GM, Digital Twin Consortium — Standards & Interoperability" },
 ];
 
 const lifeDomains = [
   { name: "Health & Longevity", desc: "Biological digital twins, precision medicine, longevity optimization", icon: "🧬" },
-  { name: "Performance & Fitness", desc: "Athletes, biohackers, wearable-driven coaching (CO-AX)", icon: "🏃" },
-  { name: "Equine", desc: "Arabian horse digital twins — Mulawa Stud partnership", icon: "🐎" },
-  { name: "Chronic Disease", desc: "M4 mechanistic models for diabetes, oncology, metabolic disorders", icon: "💊" },
+  { name: "Performance & Fitness", desc: "Athletes, biohackers, wearable-driven coaching", icon: "🏃" },
+  { name: "Family Care", desc: "Coordinate care for the people you love — one place, you in control", icon: "🤝" },
+  { name: "Chronic Disease", desc: "Mechanistic models for diabetes, oncology, metabolic disorders", icon: "💊" },
   { name: "Career & Goals", desc: "AI agents that orchestrate professional development and life goals", icon: "🎯" },
   { name: "Sovereign Health", desc: "Indigenous and community-owned health data sovereignty", icon: "🌍" },
 ];
@@ -81,19 +80,18 @@ export default function Home() {
 
           {/* [VISION UPDATE 2026-03-27: Life care, final platform, transaction revenue] */}
           <h1 className="text-5xl md:text-6xl font-bold leading-tight mb-6 tracking-tight">
-            The Final Platform.<br />
-            <span className="text-blue-400">The Autonomous Life Operating System.</span>
+            A life without limits.<br />
+            <span className="text-blue-400">It starts with your health — in one place.</span>
           </h1>
 
           <p className="text-xl text-[var(--color-text-secondary)] max-w-2xl mb-4 leading-relaxed">
-            Last mover advantage. Every silo app built the pieces — Life Atlas assembles them into the OS.
+            Life Atlas is the operating system for your life — every silo app built a piece; we assemble them into one, owned by you.
           </p>
 
           <p className="text-lg text-[var(--color-text-secondary)] max-w-2xl mb-8 leading-relaxed">
-            Life Atlas is the last platform anyone needs — an edge-native, decentralized OS with
-            industrial AI agents that orchestrate life care across health, goals, relationships,
-            career, and every domain. Not healthcare. Life care. Your data. Your devices. Your life,
-            quantified, optimized, and accelerated.
+            An edge-native, person-owned OS with AI agents that work for you across health, goals,
+            and every domain — starting with your health, all in one place. You own the data. You stay
+            in control. Not healthcare — life care. Not a medical product.
           </p>
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-12">
@@ -198,7 +196,7 @@ export default function Home() {
             {
               tier: "Concierge + M4 Twin",
               price: "EUR 3,600-6,000/yr",
-              desc: "White-glove service, dedicated AI agents, longevity planning, and the crown jewel: M4 biological digital twin anchor — mechanistic simulation of your actual biology.",
+              desc: "White-glove service, dedicated AI agents, longevity planning — with an optional mechanistic biological-twin capability for deep simulation of your biology.",
             },
           ].map((t) => (
             <div key={t.tier} className="bg-[var(--color-surface)] border border-[var(--color-border)] rounded-xl p-6">
@@ -250,8 +248,9 @@ export default function Home() {
           <p className="text-lg text-[var(--color-text-secondary)] leading-relaxed mb-4">
             Life Atlas is the last mover. We do not compete with silo apps — we orchestrate them.
             We are the integration layer, the decision engine, the OS that turns fragmented life data
-            into unified life intelligence. The biological digital twin anchors the science.
-            The platform accelerates every decision across every domain.
+            into unified life intelligence — starting with health, in one place, owned by you.
+            A mechanistic biological twin is one capability inside it; the platform accelerates every
+            decision across every domain.
           </p>
           <p className="text-lg font-semibold text-blue-400">
             This is the final platform. The last one anyone needs.
@@ -269,9 +268,9 @@ export default function Home() {
         </p>
         <div className="grid md:grid-cols-3 gap-6">
           {[
-            { label: "TAM", value: "$150B+", desc: "Longevity + personal AI + life optimization convergence — the final platform market" },
-            { label: "SAM", value: "EUR 5-10B", desc: "Premium life-optimization users in EU/NA willing to pay for the OS" },
-            { label: "SOM (Y5)", value: "EUR 90M+", desc: "15,000 premium + concierge users + transaction & matchmaking revenue" },
+            { label: "TAM", value: "EUR 141-269B", desc: "Longevity founders + HNWIs willing to pay for the OS" },
+            { label: "SAM", value: "EUR 1.5-2.5B", desc: "Digitally-native founders + active longevity HNWIs in EU/NA" },
+            { label: "SOM (2028)", value: "EUR 18.5M", desc: "Illustrative — premium + concierge + transaction revenue" },
           ].map((m) => (
             <div key={m.label} className="bg-[var(--color-surface)] border border-[var(--color-border)] rounded-xl p-6 text-center">
               <div className="text-sm text-[var(--color-text-secondary)] mb-1">{m.label}</div>
@@ -321,9 +320,9 @@ export default function Home() {
             <div>
               <h3 className="text-xl font-semibold mb-4">Pre-Seed Round</h3>
               <div className="space-y-3 text-[var(--color-text-secondary)]">
-                <div className="flex justify-between"><span>Raising</span><span className="text-[var(--color-text)] font-medium">EUR 1.5 — 2.5M</span></div>
-                <div className="flex justify-between"><span>Instrument</span><span className="text-[var(--color-text)] font-medium">SAFE Note</span></div>
-                <div className="flex justify-between"><span>Seed Target</span><span className="text-[var(--color-text)] font-medium">EUR 5-10M (H2 2027)</span></div>
+                <div className="flex justify-between"><span>Raising</span><span className="text-[var(--color-text)] font-medium">EUR 1.5M for 20%</span></div>
+                <div className="flex justify-between"><span>Instrument</span><span className="text-[var(--color-text)] font-medium">F&F convertible → pre-seed equity</span></div>
+                <div className="flex justify-between"><span>Timing</span><span className="text-[var(--color-text)] font-medium">F&F open now · pre-seed Q1 2027</span></div>
               </div>
             </div>
             <div>

@@ -101,8 +101,8 @@ export default function DataRoom() {
         {/* Summary Cards */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
           {[
-            { label: "Raising", value: "EUR 1.5-2.5M" },
-            { label: "Instrument", value: "SAFE Note" },
+            { label: "Raising", value: "EUR 1.5M for 20%" },
+            { label: "Instrument", value: "F&F convertible → pre-seed" },
             { label: "Platform", value: "Longevity OS" },
             { label: "Documents", value: `${documents.length}` },
           ].map((s) => (

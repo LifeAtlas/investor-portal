@@ -15,11 +15,10 @@ const stats = [
 ];
 
 const partners = [
-  { name: "Prof. Gunnar Cedersund", role: "Mechanistic Biology — Linköping University / AstraZeneca" },
+  { name: "Dr. Mohamad Takwa", role: "Intended Chairman — CEO & Co-founder, Epigenica (epigenetics)" },
   { name: "Pieter van Schalkwyk", role: "Founder & CEO, XMPro — Digital Twin Platform" },
   { name: "Marc Horner", role: "CEO, CytoTheryx — In Silico Clinical Trials" },
-  { name: "Dr. Eric Stahlberg", role: "Director of Biomedical Informatics, Frederick National Lab / NCI" },
-  { name: "Dan Maccreary", role: "Ex-Optum VP Engineering — Healthcare Data at Scale" },
+  { name: "Dan McCreary", role: "Ex-Optum — Healthcare Data at Scale" },
   { name: "Dan Isaacs", role: "Digital Twin Standards & Interoperability" },
 ];
 
@@ -512,9 +511,9 @@ export default function InvestorPortalV2() {
             <div>
               <h3 className="text-xl font-semibold mb-4">Pre-Seed Round</h3>
               <div className="space-y-3 text-[var(--color-text-secondary)]">
-                <div className="flex justify-between"><span>Raising</span><span className="text-[var(--color-text)] font-medium">EUR 2.5M</span></div>
-                <div className="flex justify-between"><span>Instrument</span><span className="text-[var(--color-text)] font-medium">SAFE Note</span></div>
-                <div className="flex justify-between"><span>Seed Target</span><span className="text-[var(--color-text)] font-medium">EUR 5-10M (H2 2027)</span></div>
+                <div className="flex justify-between"><span>Raising</span><span className="text-[var(--color-text)] font-medium">EUR 1.5M for 20%</span></div>
+                <div className="flex justify-between"><span>Instrument</span><span className="text-[var(--color-text)] font-medium">F&F convertible → pre-seed equity</span></div>
+                <div className="flex justify-between"><span>Timing</span><span className="text-[var(--color-text)] font-medium">F&F open now · pre-seed Q1 2027</span></div>
               </div>
             </div>
             <div>
